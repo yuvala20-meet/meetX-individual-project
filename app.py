@@ -11,6 +11,13 @@ from database import *
 def homepage():
 	return render_template("home.html")
 
+@app.route('/reviews')
+def reviews():
+	return render_template("reviews.html")
+
+@app.route('/outfits')
+def outfits():
+	return render_template("outfits.html")	
 #####################
 
 

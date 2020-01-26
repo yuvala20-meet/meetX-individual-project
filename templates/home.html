@@ -1,10 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" type="text/css"  href='/static/navBar.css' >	
 	<title></title>
 </head>
 <body>
-	<h1>Home Page</h1>
+<div class="navBar">
+  <a href={{ url_for('homepage') }}>Home Page</a> 
+  <a href={{ url_for('reviews') }}>Reviews</a> 
+  <a href={{ url_for('outfits') }}>Outfits</a> 
 
+ 
+</div>
+	<h1 class="headLine">Home Page</h1>
+	<h2 id ="news&Articles">News & Articles</h2>	
+<div class = "article">
+	<h3>Margot Robbie Revives the Kitten Heel at Birds of Prey’s Premiere</h3>
+	
+	<img class="img-articles"src="https://assets.vogue.com/photos/5e2b5f46e4224800082d899f/master/w_1024%2Cc_limit/MR-Harley-post2.jpg">
+
+	<p>Winter’s default shoe may be an insulated boot, but that hasn’t stopped stars from having fun with<br> footwear. Currently promoting her second turn as DC comics anti-heroine Harley Quinn in Birds of Prey,<br> Margot Robbie has been making the rounds in eye-catching outfits. And she outdid herself last night at the<br> film’s Hollywood premiere. Thanks to a flirty black empire-waist mini-dress by Khaite and<br> crystal-studded Alessandra Rich choker selected by stylist Kate Young, Robbie looked impossibly chic.<br> 
+	Yet the addition of her wrap-around slingback pumps from Attico took things to another level.<br>
+	<br>
+	Hot pink satin with a kitten heel, Robbie’s shoes added a touch of color to her otherwise monochromatic<br> outfit. The unique lace-up straps and comfortable low heel made the shoes stand out, providing a final<br> touch of whimsy for this very memorable look.</p>
+</div>
 </body>
 </html>
